@@ -1,5 +1,6 @@
 # eForm Dashboard 
-Slicing Design from [my Figma](https://www.figma.com/file/GYlGYKZo6IhBMOscGDKrCJ/SPL-Online?node-id=1%3A2])
+Slicing design from my last assignment for Human Computer Interaction, create using Tailiwindcss 💃
+Check on [my Figma](https://www.figma.com/file/GYlGYKZo6IhBMOscGDKrCJ/SPL-Online?node-id=1%3A2])
 Inspire design by me
 
 ## Responsive Design
