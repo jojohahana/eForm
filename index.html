@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jangan lupa buat nambahin ini   -->
+    <link rel="stylesheet" href="dist/output.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>First Portofolio</title>
+</head>
+<body>
+    <!-- Header Section Start  -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4 ">
+                    <a href="#home" class="font-extrabold text-lg text-ybc block py-3 px-3 mt-2 lg:text-3xl ">
+                        e-Form <span class="text-blue-600">YBC</span>
+                    </a>
+                </div>
+                <!-- <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left "></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full">
+                        <ul class="block">
+                            <li class="group">
+                                <a href="#" class="text-base text-dark px-2 py-8 mx-4 flex group-hover:text-primary">Overview</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div> -->
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End  -->
+
+    <!-- Hero Section Start  -->
+    <section id="home" class="pt-36">
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full self-center px-4 lg:w-1/2">
+            <h1 class="text-3xl font-extrabold text-slate-800 mb-2 lg:text-7xl">
+              Ajukan Overtime, Ijin & Cuti <span class="text-blue-600">Secara Online</span>
+            </h1>
+            <p class="mb-5 mt-2 lg:text-2xl lg:font-semibold">Perhatikan maksimal pengajuan form sebelum mengajukan permintaan.</p>
+            <!-- Button hanya muncul pada saat mode Large saja  -->
+            <div class="invisible lg:visible lg:mt-12">
+              <a href="#" class="px-20 py-6 rounded-xl bg-[#2632A5] text-white lg:text-xl lg:font-extrabold lg:hover:bg-white lg:hover:outline-dashed lg:hover:outline-[#2632A5] lg:hover:text-[#2632A5]">LEMBUR</a>
+              <a href="#" class="px-20 py-6 rounded-xl bg-[#E4B7EB] text-white lg:ml-12 lg:text-xl lg:font-extrabold lg:hover:bg-white lg:hover:outline-dashed lg:hover:outline-red-600 lg:hover:text-red-600">ABSEN</a>
+            </div>
+            <!-- ==== CARA MENYISIPKAN SVG KE DALAM BUTTON ====  -->
+            <!-- Notifikasi Maks Sakit  -->
+            <!-- <div class="flex flex-row lg:scale-100">
+              <a href="#" class="text-xs text-white bg-[#941616] py-2 px-6 font-semibold rounded-full mt-2 inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg> 
+                <span>Pengajuan Izin Sakit Maks H+1</span></a>
+            </div> -->
+            <!-- Notifikasi Maks Overtime  -->
+            <!-- <div class="flex flex-row ">
+              <a href="#" class="text-xs text-white bg-[#236E4E] py-2 px-6 font-semibold rounded-full mt-2 inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg> 
+                <span>Pengajuan Lembur Maks H+</span></a>
+            </div> -->
+            <!-- Notifikasi Maks Cuti  -->
+            <!-- <div class="flex flex-row ">
+              <a href="#" class="text-xs text-white bg-[#D88A16] py-2 px-6 font-semibold rounded-full mt-2 inline-flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" >
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg> 
+                <span>Pengajuan Cuti Maks H-7</span></a>
+            </div> -->
+            
+          </div>
+
+          <!-- Icon Dashboard  -->
+          <div class="w-full self-end px-4 lg:w-1/2 ">
+            <div class="relative mt-10 mb-7 ">
+              <img src="dist/img/Group Hero.png" alt="icon-dashboard" class="relative z-10 mx-auto max-w-full">
+            </div>
+
+            <!-- Button Form  -->
+            <div class="grid grid-cols-2 gap-4 visible text-center lg:invisible lg:w-1/2">
+              <a href="#" class="rounded-xl bg-[#2632A5] text-white py-3 px-6 text-vase font-bold md:px-10 md:py-3 hover:bg-white hover:text-[#2632A5] hover:outline-dashed hover:outline-2 hover:outline-[#2632A5] hover:font-extrabold">LEMBUR</a>
+              <a href="#" class="rounded-xl bg-[#E4B7EB] text-white py-3 px-6 text-vase font-bold hover:bg-white hover:text-red-600 hover:outline-dashed hover:outline-2">ABSEN</a>           
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End  -->
+
+    <!-- Footer Section Start  -->
+    <footer class="pt-3 pb-3 bg-slate-800 mt-10 text-white font-thin">
+      <div class="container">
+        <div class="flex flex-wrap text-center">
+          <div class="mb-4 w-full px-4">
+            <h2 class="font-semibold text-base mb-1"><a href="http://www.pttrimitra.com/" target="_blank">PT. Ya Dengan Saya Sendiri</a></h2>
+            <p class="text-xs font-light">Klik Linkedin saya pada profil Github</p>
+          </div>
+        </div>
+        
+        <div class="w-full border-t border-slate-700 pt-5 scroll-pb-5">
+          <div class="flex items-center justify-center">
+            <p class="text-xs font-semibold">Develop by Jojohahana with <span class="text-pink-500">❤</span></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End  -->
+</body>
+</html>
