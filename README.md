@@ -1,5 +1,5 @@
 # eForm Dashboard 
-Slicing design from my last assignment for Human Computer Interaction, create using Tailiwindcss 💃
+Slicing design from my last assignment for Human Computer Interaction, create using Tailiwindcss v3.1 💃
 Check on [my Figma](https://www.figma.com/file/GYlGYKZo6IhBMOscGDKrCJ/SPL-Online?node-id=1%3A2])
 Inspire design by me
 
